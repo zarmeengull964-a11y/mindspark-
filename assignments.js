@@ -1,0 +1,17 @@
+export const ASSIGNMENTS = [
+  { id: 'a1',  lang: 'html',       title: 'Personal Profile Page',       difficulty: 'Easy',   xp: 15, desc: 'Create a single HTML page with your name, a photo (img), an "About" paragraph, a list of hobbies and a contact section.' },
+  { id: 'a2',  lang: 'html',       title: 'Restaurant Menu Table',       difficulty: 'Easy',   xp: 15, desc: 'Use a <table> to display 5 dishes with name, description, and price columns. Add a header row.' },
+  { id: 'a3',  lang: 'css',        title: 'Card Component Library',      difficulty: 'Medium', xp: 25, desc: 'Design 3 different card styles using only CSS — pricing card, profile card, product card. Use flexbox.' },
+  { id: 'a4',  lang: 'css',        title: 'Responsive Landing Page',     difficulty: 'Hard',   xp: 40, desc: 'Build a 3-section landing page that adapts at 320px, 768px and 1024px breakpoints.' },
+  { id: 'a5',  lang: 'javascript', title: 'Click Counter App',           difficulty: 'Easy',   xp: 15, desc: 'A button that displays how many times it has been clicked. Persist the count to localStorage.' },
+  { id: 'a6',  lang: 'javascript', title: 'Todo List with Filters',      difficulty: 'Medium', xp: 25, desc: 'Add/complete/delete todos. Filter by All / Active / Done. Persist to localStorage.' },
+  { id: 'a7',  lang: 'javascript', title: 'Weather Dashboard (fetch)',   difficulty: 'Hard',   xp: 40, desc: 'Use the OpenWeather API to fetch and display the current weather for a city the user enters.' },
+  { id: 'a8',  lang: 'react',      title: 'Pomodoro Timer Component',    difficulty: 'Medium', xp: 25, desc: 'Build a 25/5-minute timer using useState + useEffect. Add start/pause/reset buttons.' },
+  { id: 'a9',  lang: 'react',      title: 'Movie Search App',            difficulty: 'Hard',   xp: 40, desc: 'Search a movie API, render result cards, support pagination and a favourites list.' },
+  { id: 'a10', lang: 'python',     title: 'Number Guessing Game',        difficulty: 'Easy',   xp: 15, desc: 'CLI game: program picks a number 1–100, user has 7 guesses. Print "higher" or "lower".' },
+  { id: 'a11', lang: 'python',     title: 'CSV Sales Report',            difficulty: 'Medium', xp: 25, desc: 'Read a sales CSV, compute totals per product/region and write the report to a new CSV.' },
+  { id: 'a12', lang: 'sql',        title: 'E-commerce Schema',           difficulty: 'Medium', xp: 25, desc: 'Design tables for users, products, orders, and order_items. Write 3 sample JOIN queries.' },
+  { id: 'a13', lang: 'php',        title: 'Contact Form + JSON Store',   difficulty: 'Medium', xp: 25, desc: 'Build a PHP endpoint that accepts a contact form (name/email/message) and appends to contacts.json.' },
+  { id: 'a14', lang: 'java',       title: 'Bank Account Class',          difficulty: 'Easy',   xp: 15, desc: 'Create a BankAccount class with deposit, withdraw and getBalance. Add input validation.' },
+  { id: 'a15', lang: 'cpp',        title: 'Mini Stopwatch (CLI)',        difficulty: 'Hard',   xp: 40, desc: 'Use <chrono> to build a stopwatch with start/stop/reset and laps. Print formatted ms / s.' },
+];
